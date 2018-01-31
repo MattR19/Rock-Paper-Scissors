@@ -1,0 +1,20 @@
+body{
+	background-color: #87CEFA;
+	font-family: Cabin;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+}
+
+img{padding:10px; cursor: pointer;transition: 1s;}
+img:hover{ transform: scale(1.1);
+ transition: 1s;
+}
+
+.container{
+	position: absolute;
+	top:500px;
+	left:50%;
+	transform: translate(-50%,-50%);
+	min-height: 400px;
+}
